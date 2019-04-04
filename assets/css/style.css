@@ -1,0 +1,213 @@
+/* general */
+h1, h3, label, button, p {
+    font-family: 'Montserrat', sans-serif;
+}
+.container h1{
+    color: white;
+    font-size: 50px;
+    padding:2%;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    display: inline;
+    margin-left: 35%;
+    font-weight: bold;
+}
+.fas .fa-search{
+    color: white;
+}
+body{
+    background: black;
+    padding-top: 5%;
+}
+/* choices */
+#choices{
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    width: 800px;
+    margin-top:  5%;
+    margin-left: 3%;
+    margin-right:0%;
+    float: left;
+    margin-bottom:2%;
+}
+.giphy-btn{
+    font-size: 20px;
+    margin-left:2%;
+    margin-top:2%;
+    margin-bottom:1%;
+}
+#add-giphy{
+    font-size: 25px;
+    padding: 1%;
+}
+#giphy-input{
+    margin:2%;
+    font-size: 30px;
+}
+label{
+    color: white;
+    font-size: 30px;
+    margin-left: 2%;
+    font-weight:bold;
+}
+/* display */
+img{
+    width:100%;
+}
+#giphy{
+    display: inline-block;
+    width: 350px;
+    margin:2%;
+    vertical-align: top;
+}
+p{
+    color: white;
+    /* width: 200px; */
+}
+#display{
+    margin: 3%;
+    width: 800px;
+    padding:2%;
+}
+#display img{
+    padding-top:2%;
+}
+.down {
+    font-size: 14px;
+    margin-left:1%;
+    padding-top:0%;
+    padding-bottom:1%;
+    background-color:white;
+    border: none;
+}
+/* favorites */
+#favorites{
+    color:white;
+    font-size: 30px;
+    padding-left:2%;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    width: 400px;
+    display: inline;
+    margin-left:0%;
+    margin-top: 5%;
+    margin-right:3%;
+    float:right;
+    height: auto;
+    margin-bottom:1%;
+    padding-top:1%;
+}
+#favorites img{
+    width: 150px;
+}
+.fas, .fa-star{
+    color:yellow;
+}
+#favorites h3 {
+    display: inline;
+    font-weight:bold;
+}
+#favorites p {
+    font-size: 15px;
+}
+/* button */
+#clear {
+    font-size: 20px;
+    padding: 1%;
+    margin-top:1%;
+}
+.checkbox{
+    padding:0%;
+    font-size:20px;
+}
+button{
+    background: white;
+}
+button:hover {
+    background-color:#D4FFA4;
+}
+
+/* media query */
+@media screen and (max-width: 980px) {
+    .container h1{
+        margin-left: 28%;
+    }
+    #choices {
+        margin-left: 8%;
+    }
+    #favorites{
+        margin-top:2%;
+        margin-right:6%;
+    }
+    #display{
+        margin-left:2%;
+        width: auto;
+    }
+    #giphy{
+        width:425px;
+        margin:1%;
+    }
+}
+/* media query */
+@media screen and (max-width: 768px) {
+    .container{
+        margin-right:15%;
+    }
+    #choices{
+        width:700px;
+        margin-left: 4%;
+    }
+    #giphy-input{
+        font-size: 25px;
+    }
+    #favorites{
+        width:680px;
+        margin-left:4%;
+        margin-right:4%;
+    }
+    #giphy{
+        width:330px;
+    }
+    #display{
+        margin-left:3%;
+    }
+    p{
+        font-size:25px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .container{
+       margin-right:0%;
+    }
+    .container h1{
+        font-size:75px;
+        margin-left:1%;
+    }
+    #choices{
+        width:600px;
+        margin-left: 2%;
+    }
+    #giphy-input{
+        font-size: 18px;
+    }
+    #add-giphy{
+        font-size: 18px;
+    }
+    #favorites{
+        width:580px;
+        /* margin-left:5%; */
+        margin-right:3.5%;
+    }
+    #giphy{
+        width:550px;
+    }
+    #display{
+        margin-left:3%;
+    }
+    p{
+        font-size:30px;
+    }
+}

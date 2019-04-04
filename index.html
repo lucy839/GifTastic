@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- reset  css -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css"
+        integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- my css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Giphy Search</title>
+</head>
+
+<body>
+    <!-- title -->
+    <div class="container">
+        <h1>Giphy Search <i class="fas fa-search"></i></h1>
+    </div>
+    <!-- Rendered Buttons will get Dumped Here  -->
+    <div id="choices">
+        <div id="buttons-view"></div>
+        <form id="giphy-form">
+            <label for="giphy-input">Search your Giphy!</label>
+            <input type="text" id="giphy-input">
+
+            <!-- Button triggers new giphy button to be added -->
+            <button id="add-giphy" type="submit"> Search </button>
+        </form>
+    </div>
+    <!-- keep the favoritees -->
+    <div id="favorites">
+        <h3>Favorites <i class="fas fa-star"></i></h3>
+        <button id="clear"> clear </button>
+        <div class="favorites"></div>
+    </div>
+    <!-- display the giphy images related to button clicked -->
+    <div id="display">
+    </div>
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- javascript -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
