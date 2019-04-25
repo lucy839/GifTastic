@@ -47,6 +47,8 @@ $(document).ready(function () {
         if (offSet < 1) {
             $("#display").empty();
         }
+        var mykey = config.MY_KEY;
+        var secretkey = config.SECRET_KEY;
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=2JAm3dCYilKMooS1kOwyy0LMuCRKUzK7&offset=" + offSet + "&limit=10";
         $.ajax({
             url: queryURL,
