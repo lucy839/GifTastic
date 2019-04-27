@@ -18,7 +18,8 @@
     each item, but replacing with delete button once they are added to favorites were still unsolved. 
 
 ## Techinical Approach
--   javascript, jQuery (especialky onclick function, and api (ajax) 
+-   javascript, jQuery (especially onclick function), and api (ajax) 
+
 ## Future
 -   Resolve download and delete buttons that are still remaining as conflicts
 
